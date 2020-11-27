@@ -1,0 +1,125 @@
+body, * {
+	font-family: Ubuntu;
+	margin: 0;
+}
+
+header {
+	background-image: url("banner.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	color: white;
+	font-size: 50px;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+header h2 {
+	color: gainsboro;
+	padding: 25px;
+	margin-bottom: 15px;
+	font-size: 30px;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.boton {
+	padding: 10px 30px 10px 30px;
+	border: 1px solid black;
+	border-radius: 15px;
+	font-size: 25px;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: lime;
+	transition: .5s;
+}
+
+.boton:hover {
+	background-color: black;
+	border: 1px solid lime;
+	color: lime;
+}
+
+main {
+	padding: 50px;
+	background-color: gainsboro;
+}
+
+main h2 {
+	padding-bottom: 50px;
+}
+
+.contenedor {
+	display: flex;
+	flex-flow: row wrap;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.item {
+	padding: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	flex: 1 1 150px;
+	min-width: 150px;
+	background-color: #f7f7f7;
+	border-radius: 15px;
+	text-align: center;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	transition: .5s;
+}
+
+h3, div p {
+	color: black;
+}
+
+#ar:hover {
+	box-shadow: 0 0 20px black;
+}
+
+#cl:hover {
+	box-shadow: 0 0 20px black;
+}
+
+#br:hover {
+	box-shadow: 0 0 20px black;
+}
+
+div img {
+	width: 100%;
+  	height: 180px;
+ 	object-fit: cover;
+  	border-radius: 10px;
+}
+
+div h3 {
+	padding: 5px;
+}
+
+footer {
+	background-color: #0e1111;
+	color: #c0c5ce;
+	text-align: center;
+	padding: 40px 20px 20px 20px;
+}
+
+footer a {
+	text-decoration: none;
+	color: lime;
+}
+
+.icono {
+	width: 115px;
+	padding-top: 15px;
+	}
